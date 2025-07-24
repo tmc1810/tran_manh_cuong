@@ -26,7 +26,7 @@ function Home() {
       <div className="home-img">
         <div className="img-box">
           <div className="img-item">
-            <img src="img/home.png" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/img/home.png`} alt="" />
           </div>
         </div>
       </div>
