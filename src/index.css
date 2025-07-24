@@ -244,13 +244,21 @@ a {
 /* == Projects Section == */
 .projects {
   display: flex;
-  padding: 150px 11% 0;
+  gap: 30px;
+  padding: 140px 11% 0;
   visibility: hidden;
   justify-content: center;
   align-items: center;
   opacity: 0;
   animation: show-content .5s linear forwards;
   animation-delay: .4s;
+}
+
+.projects .projects-btn--1,
+.projects .projects-btn--2,
+.projects .projects-btn--3 {
+  display: grid;
+  gap: 30px;
 }
 
 .projects .projects-btn--box {
