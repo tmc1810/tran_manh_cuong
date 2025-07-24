@@ -8,12 +8,12 @@ function App() {
     return (
         <Router>
             <nav className="navbar">
-                <Link to="/" className="logo">.Hồ sơ.</Link>
+                <Link to="/tran_manh_cuong/" className="logo">.Hồ sơ.</Link>
                 <ul>
-                    <li className="active"><Link to="/">Trang chủ</Link></li>
-                    <li><Link to="/about">Giới thiệu</Link></li>
-                    <li><Link to="/projects">Dự án</Link></li>
-                    <li><Link to="/contact">Liên hệ</Link></li>
+                    <li className="active"><Link to="/tran_manh_cuong/">Trang chủ</Link></li>
+                    <li><Link to="/tran_manh_cuong/about">Giới thiệu</Link></li>
+                    <li><Link to="/tran_manh_cuong/projects">Dự án</Link></li>
+                    <li><Link to="/tran_manh_cuong/contact">Liên hệ</Link></li>
                 </ul>
             </nav>
 
@@ -23,10 +23,10 @@ function App() {
             </div>
 
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/contact" element={<Contact />} />
+                <Route path="/tran_manh_cuong/" element={<Home />} />
+                <Route path="/tran_manh_cuong/about" element={<About />} />
+                <Route path="/tran_manh_cuong/projects" element={<Projects />} />
+                <Route path="/tran_manh_cuong/contact" element={<Contact />} />
             </Routes>
         </Router>
     );
