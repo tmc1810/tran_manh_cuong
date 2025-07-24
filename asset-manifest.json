@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tran_manh_cuong/static/css/main.01194a09.css",
+    "main.css": "/tran_manh_cuong/static/css/main.66a3a133.css",
     "main.js": "/tran_manh_cuong/static/js/main.aa9c6541.js",
     "index.html": "/tran_manh_cuong/index.html",
-    "main.01194a09.css.map": "/tran_manh_cuong/static/css/main.01194a09.css.map",
+    "main.66a3a133.css.map": "/tran_manh_cuong/static/css/main.66a3a133.css.map",
     "main.aa9c6541.js.map": "/tran_manh_cuong/static/js/main.aa9c6541.js.map"
   },
   "entrypoints": [
-    "static/css/main.01194a09.css",
+    "static/css/main.66a3a133.css",
     "static/js/main.aa9c6541.js"
   ]
 }
