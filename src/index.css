@@ -577,7 +577,6 @@ a {
 @media (max-width: 600px) {
   .navbar {
     flex-direction: column;
-    align-items: flex-start;
     padding: 8px 2%;
   }
 
@@ -586,9 +585,8 @@ a {
   }
 
   .navbar ul {
-    flex-direction: column;
-    width: 100%;
-    margin-top: 6px;
+    gap: 20px;
+    margin-top: 4px;
   }
 
   .navbar ul li {
@@ -643,7 +641,7 @@ a {
   .projects {
     flex-direction: column;
     gap: 7px;
-    padding: 70px 2% 0;
+    padding: 90px 2% 0;
   }
 
   .projects .projects-btn--1,
@@ -655,7 +653,7 @@ a {
 
   .projects .projects-btn--box {
     width: 99vw;
-    height: 48px;
+    height: 100px;
     min-width: unset;
     min-height: unset;
   }
