@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tran_manh_cuong/static/css/main.e35f9b4a.css",
+    "main.js": "/tran_manh_cuong/static/js/main.5bc37f39.js",
+    "index.html": "/tran_manh_cuong/index.html",
+    "main.e35f9b4a.css.map": "/tran_manh_cuong/static/css/main.e35f9b4a.css.map",
+    "main.5bc37f39.js.map": "/tran_manh_cuong/static/js/main.5bc37f39.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e35f9b4a.css",
+    "static/js/main.5bc37f39.js"
+  ]
+}
