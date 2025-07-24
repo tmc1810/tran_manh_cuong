@@ -10,7 +10,7 @@ function Home() {
           <span style={{ "--i": 4 }} data-text="Web Developer">Web Developer</span>
         </h2>
         <p>Chào mừng bạn đến với trang hồ sơ cá nhân của tôi! Tôi là một nhà phát triển Website
-          <br /> với niềm đam mê tạo ra những trải nghiệm người dùng tuyệt vời.
+          với niềm đam mê tạo ra những trải nghiệm người dùng tuyệt vời.
         </p>
         <div className="btn-sci">
           <div className="sci">
