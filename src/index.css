@@ -30,7 +30,7 @@ a {
 }
 
 .navbar .logo {
-  font-size: 30px;
+  font-size: clamp(20px, 3vw, 30px);
   font-weight: 700;
 }
 
@@ -44,7 +44,7 @@ a {
 }
 
 .navbar ul li a {
-  font-size: 20px;
+  font-size: clamp(14px, 2vw, 20px);
   font-weight: 400;
   transition: .5s;
 }
@@ -69,11 +69,11 @@ a {
 }
 
 .home-info h1 {
-  font-size: 55px;
+  font-size: clamp(22px, 5vw, 55px);
 }
 
 .home-info h2 {
-  font-size: 40px;
+  font-size: clamp(14px, 4vw, 40px);
   margin-top: -10px;
 }
 
@@ -85,6 +85,7 @@ a {
   -webkit-text-stroke: .7px #7cf03d;
   animation: display-text 16s linear infinite;
   animation-delay: calc(-4s * var(--i));
+  font-size: clamp(12px, 4vw, 34px);
 }
 
 .home-info h2 span::before {
@@ -99,7 +100,7 @@ a {
 }
 
 .home-info p {
-  font-size: 16px;
+  font-size: clamp(12px, 2vw, 16px);
   margin: 10px 0 25px;
 }
 
@@ -115,7 +116,7 @@ a {
   border: 2px solid #7cf03d;
   border-radius: 40px;
   box-shadow: 0 0 10px #7cf03d;
-  font-size: 16px;
+  font-size: clamp(12px, 2vw, 16px);
   color: #1f242d;
   font-weight: 600;
   transition: .5s;
@@ -141,7 +142,7 @@ a {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: clamp(13px, 2vw, 20px);
   color: #7cf03d;
   transition: .5s;
 }
@@ -306,7 +307,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 15px;
+  font-size: clamp(9px, 2vw, 15px);
   color: #ffffff;
   font-weight: 600;
   text-transform: uppercase;
@@ -370,7 +371,7 @@ a {
   margin-top: -230px;
   padding: 0 10px;
   font-weight: bold;
-  font-size: 40px;
+  font-size: clamp(16px, 5vw, 40px);
   color: #ffffff;
   border-radius: 10px;
   filter: drop-shadow(0 0 10px #7cf03d);
@@ -410,7 +411,7 @@ a {
 
 .contact-list li {
   padding: 15px 0;
-  font-size: 20px;
+  font-size: clamp(11px, 2vw, 20px);
 }
 
 /* == Animations == */
@@ -465,5 +466,226 @@ a {
 @keyframes bar-in {
   to {
     transform: scaleX(100%);
+  }
+}
+
+
+/* ==== Responsive Design - Nâng cao giữ layout gốc ==== */
+
+/* Tablet (<= 1024px) */
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 18px 4%;
+  }
+
+  .home {
+    flex-direction: column;
+    gap: 28px;
+    padding: 90px 4% 0;
+    text-align: center;
+  }
+
+  .home-info h1 {
+    font-size: clamp(18px, 4vw, 38px);
+  }
+
+  .home-info h2 {
+    font-size: clamp(14px, 3vw, 24px);
+  }
+
+  .home-info h2 span {
+    font-size: clamp(12px, 3vw, 20px);
+  }
+
+  .home-info p {
+    font-size: clamp(11px, 2vw, 14px);
+  }
+
+  .btn {
+    font-size: clamp(11px, 2vw, 14px);
+  }
+
+  .home-info .btn-sci .sci a {
+    font-size: clamp(10px, 2vw, 16px);
+  }
+
+  .home-img .img-box {
+    width: 38vw;
+    height: 38vw;
+    min-width: 120px;
+    min-height: 120px;
+    max-width: 220px;
+    max-height: 220px;
+    margin: 0 auto;
+  }
+
+  .projects {
+    flex-direction: column;
+    gap: 25px;
+    padding: 120px 4% 0;
+  }
+
+  .projects .projects-btn--box {
+    width: 70vw;
+    max-width: 400px;
+    height: 110px;
+    min-height: 72px;
+  }
+
+  .projects-btn--box span {
+    font-size: clamp(9px, 2vw, 12px);
+  }
+
+  .contact .contact-box {
+    width: 52vw;
+    height: 22vw;
+    min-width: 110px;
+    min-height: 80px;
+    max-width: 200px;
+    max-height: 120px;
+  }
+
+  .contact-title {
+    font-size: clamp(12px, 3vw, 24px);
+    margin-top: -70px;
+  }
+
+  .contact-list li {
+    font-size: clamp(9px, 2vw, 15px);
+  }
+}
+
+/* Mobile landscape/medium (<= 800px) */
+@media (max-width: 800px) {
+  .home-img .img-box {
+    width: 56vw;
+    height: 56vw;
+    min-width: 80px;
+    min-height: 80px;
+    max-width: 120px;
+    max-height: 120px;
+  }
+
+  .projects .projects-btn--box {
+    width: 95vw;
+    height: 72px;
+    min-width: 60px;
+  }
+}
+
+/* Mobile (<= 600px) */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 2%;
+  }
+
+  .navbar .logo {
+    font-size: clamp(15px, 4vw, 20px);
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 6px;
+  }
+
+  .navbar ul li {
+    margin: 5px 0;
+  }
+
+  .home {
+    flex-direction: column;
+    gap: 7px;
+    padding: 58px 2% 0;
+    min-height: 100vh;
+    text-align: center;
+  }
+
+  .home-info h1 {
+    font-size: clamp(12px, 6vw, 18px);
+  }
+
+  .home-info h2 {
+    font-size: clamp(8px, 4vw, 12px);
+  }
+
+  .home-info h2 span {
+    font-size: clamp(8px, 4vw, 10px);
+  }
+
+  .home-info p {
+    font-size: clamp(7px, 3vw, 11px);
+  }
+
+  .btn {
+    font-size: clamp(8px, 2vw, 11px);
+    padding: 7px 20px;
+  }
+
+  .home-info .btn-sci .sci a {
+    font-size: clamp(7px, 2vw, 12px);
+    width: 28px;
+    height: 28px;
+  }
+
+  .home-img .img-box {
+    width: 82vw;
+    height: 82vw;
+    min-width: 48px;
+    min-height: 48px;
+    max-width: 80px;
+    max-height: 80px;
+    margin: 0 auto;
+  }
+
+  .projects {
+    flex-direction: column;
+    gap: 7px;
+    padding: 70px 2% 0;
+  }
+
+  .projects .projects-btn--1,
+  .projects .projects-btn--2,
+  .projects .projects-btn--3 {
+    gap: 6px;
+    grid-template-columns: 1fr;
+  }
+
+  .projects .projects-btn--box {
+    width: 99vw;
+    height: 48px;
+    min-width: unset;
+    min-height: unset;
+  }
+
+  .projects-btn--box span {
+    font-size: clamp(6px, 2vw, 8px);
+  }
+
+  .contact {
+    padding: 40px 2% 0;
+  }
+
+  .contact .contact-box {
+    width: 98vw;
+    height: 18vw;
+    min-width: 40px;
+    min-height: 28px;
+    max-width: 60px;
+    max-height: 38px;
+    flex-direction: column;
+    padding: 2px;
+  }
+
+  .contact-title {
+    font-size: clamp(8px, 5vw, 12px);
+    margin-top: -28px;
+  }
+
+  .contact-list li {
+    font-size: clamp(6px, 2vw, 10px);
+    padding: 2px 0;
   }
 }
