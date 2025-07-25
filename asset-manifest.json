@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tran_manh_cuong/static/css/main.9a0a43d2.css",
-    "main.js": "/tran_manh_cuong/static/js/main.6480d293.js",
+    "main.css": "/tran_manh_cuong/static/css/main.3519b7c1.css",
+    "main.js": "/tran_manh_cuong/static/js/main.a938e887.js",
     "index.html": "/tran_manh_cuong/index.html",
-    "main.9a0a43d2.css.map": "/tran_manh_cuong/static/css/main.9a0a43d2.css.map",
-    "main.6480d293.js.map": "/tran_manh_cuong/static/js/main.6480d293.js.map"
+    "main.3519b7c1.css.map": "/tran_manh_cuong/static/css/main.3519b7c1.css.map",
+    "main.a938e887.js.map": "/tran_manh_cuong/static/js/main.a938e887.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a0a43d2.css",
-    "static/js/main.6480d293.js"
+    "static/css/main.3519b7c1.css",
+    "static/js/main.a938e887.js"
   ]
 }
