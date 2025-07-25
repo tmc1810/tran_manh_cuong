@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 import Home from './home';
 import About from './about';
 import Projects from './projects';
@@ -8,12 +8,20 @@ function App() {
     return (
         <Router basename="/tran_manh_cuong">
             <nav className="navbar">
-                <Link to="/" className="logo">.Hồ sơ.</Link>
+                <NavLink to="/" className="logo">.Hồ sơ.</NavLink>
                 <ul>
-                    <li className="active"><Link to="/">Trang chủ</Link></li>
-                    <li><Link to="/about">Giới thiệu</Link></li>
-                    <li><Link to="/projects">Dự án</Link></li>
-                    <li><Link to="/contact">Liên hệ</Link></li>
+                    <li>
+                        <NavLink to="/" end className={({ isActive }) => isActive ? "active-link" : ""}>Trang chủ</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/about" className={({ isActive }) => isActive ? "active-link" : ""}>Giới thiệu</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/projects" className={({ isActive }) => isActive ? "active-link" : ""}>Dự án</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/contact" className={({ isActive }) => isActive ? "active-link" : ""}>Liên hệ</NavLink>
+                    </li>
                 </ul>
             </nav>
 

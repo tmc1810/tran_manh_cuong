@@ -15,9 +15,9 @@ function Home() {
         <div className="btn-sci">
           <div className="sci">
             <a href="https://github.com/tmc1810"><i className='bx bxl-github'></i></a>
-            <a href="#!"><i className='bx bxl-linkedin'></i></a>
+            <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-m%E1%BA%A1nh-c%C6%B0%E1%BB%9Dng-84b974339"><i className='bx bxl-linkedin'></i></a>
             <a href="https://www.facebook.com/tran.manh.cuong1810"><i className='bx bxl-facebook'></i></a>
-            <a href="#!"><i className='bx bxl-discord-alt'></i></a>
+            <a href="https://discord.com/users/mrshine1558"><i className='bx bxl-discord-alt'></i></a>
           </div>
           <a href="#!" className="btn">Tải CV</a>
         </div>
