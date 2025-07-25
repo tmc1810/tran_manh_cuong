@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -44,8 +44,8 @@ a {
 }
 
 .navbar ul li a {
-  font-size: clamp(14px, 2vw, 20px);
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: 500;
   transition: .5s;
 }
 
@@ -69,11 +69,11 @@ a {
 }
 
 .home-info h1 {
-  font-size: clamp(22px, 5vw, 55px);
+  font-size: 55px;
 }
 
 .home-info h2 {
-  font-size: clamp(14px, 4vw, 40px);
+  font-size: 45px;
   margin-top: -10px;
 }
 
@@ -85,7 +85,7 @@ a {
   -webkit-text-stroke: .7px #7cf03d;
   animation: display-text 16s linear infinite;
   animation-delay: calc(-4s * var(--i));
-  font-size: clamp(12px, 4vw, 34px);
+  font-size: 45px;
 }
 
 .home-info h2 span::before {
@@ -100,7 +100,7 @@ a {
 }
 
 .home-info p {
-  font-size: clamp(12px, 2vw, 16px);
+  font-size: 20px;
   margin: 10px 0 25px;
 }
 
@@ -118,7 +118,7 @@ a {
   box-shadow: 0 0 10px #7cf03d;
   font-size: clamp(12px, 2vw, 16px);
   color: #1f242d;
-  font-weight: 600;
+  font-weight: 700;
   transition: .5s;
   animation: floatBtn 2s ease-in-out infinite;
   animation-delay: 1s;
@@ -307,7 +307,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: clamp(9px, 2vw, 15px);
+  font-size: 16px;
   color: #ffffff;
   font-weight: 600;
   text-transform: uppercase;
@@ -479,7 +479,20 @@ a {
   }
 
   .home-info h1 {
-    font-size: 39px;
+    font-size: 35px;
+  }
+
+  .home-info h2 {
+    margin-top: 1px;
+    font-size: 35px;
+  }
+
+  .home-info h2 span {
+    font-size: 35px;
+  }
+
+  .home-info p {
+    font-size: 15px;
   }
 
   .projects {
@@ -493,7 +506,7 @@ a {
   }
 
   .projects-btn--box span {
-    font-size: 10px;
+    font-size: 11px;
   }
 
   .contact .contact-box {
@@ -568,8 +581,8 @@ a {
   }
 
   .home-info p {
-    font-size: 20px;
-    width: 520px;
+    font-size: 18px;
+    width: 420px;
   }
 
   .btn {
@@ -636,13 +649,13 @@ a {
 
   .contact-title {
     font-size: 300%;
-    margin-top: -200px;
+    margin-top: -210px;
   }
 
   .contact .contact-title--border {
     height: 4px;
-    width: 22%;
-    margin-top: -200px;
+    width: 150px;
+    margin-top: -198px;
     background: #1f242d;
   }
 
@@ -687,23 +700,23 @@ a {
   }
 
   .home-info h1 {
-    font-size: 20px;
-    margin-top: 330px;
+    font-size: 25px;
+    margin-top: 250px;
   }
 
   .home-info h2 {
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 1px;
   }
 
   .home-info h2 span {
-    font-size: 20px;
+    font-size: 25px;
 
   }
 
   .home-info p {
-    font-size: 14px;
-    width: 370px;
+    font-size: 15px;
+    width: 350px;
   }
 
   .btn {
@@ -730,7 +743,7 @@ a {
   .home-img .img-box {
     min-width: 300px;
     min-height: 300px;
-    margin-top: -610px;
+    margin-top: -600px;
   }
 
   .projects {
@@ -768,7 +781,7 @@ a {
 
   .contact-title {
     font-size: 25px;
-    margin-top: -148px;
+    margin-top: -152px;
   }
 
   .contact .contact-title--border {
