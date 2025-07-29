@@ -19,7 +19,7 @@ function Home() {
             <a href="https://www.facebook.com/tran.manh.cuong1810"><i className='bx bxl-facebook'></i></a>
             <a href="https://discord.com/users/mrshine1558"><i className='bx bxl-discord-alt'></i></a>
           </div>
-          <a href="#!" className="btn">Tải CV</a>
+          <a href="./pdf/CV_Tran_Manh_Cuong.pdf" className="btn" download>Tải CV</a>
         </div>
       </div>
 
