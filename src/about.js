@@ -5,7 +5,7 @@ function About() {
         { name: "Java", level: 3 },
         { name: "Php", level: 3 },
         { name: "Python", level: 3 },
-        { name: "JavaScript", level: 3 },
+        { name: "JavaScript (TypeScript)", level: 3 },
     ];
 
     const otherSkills = [
