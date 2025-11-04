@@ -3,8 +3,8 @@ import React from "react";
 function About() {
     const programmingSkills = [
         { name: "Java", level: 3 },
-        { name: "Php", level: 3 },
-        { name: "Python", level: 3 },
+        { name: "Php", level: 2 },
+        { name: "Python", level: 4 },
         { name: "JavaScript (TypeScript)", level: 3 },
     ];
 
@@ -16,11 +16,11 @@ function About() {
         { name: "React", level: 3 },
         { name: "Flask", level: 3 },
         { name: "MySQL", level: 3 },
-        { name: "SQL Server", level: 3 },
-        { name: "GitHub", level: 4 },
-        { name: "RESTful API", level: 4 },
+        { name: "Django", level: 4 },
+        { name: "GitHub", level: 3 },
+        { name: "MTV", level: 5 },
         { name: "MVC", level: 5 },
-        { name: "Microservices", level: 4 },
+        { name: "Microservices", level: 3 },
     ];
 
     return (
@@ -46,7 +46,7 @@ function About() {
                     </div>
                     <div className="edu-row">
                         <span>📈 <strong>GPA:</strong></span>
-                        <span>3.3</span>
+                        <span>3.26</span>
                     </div>
                 </div>
                 <h2 className="glow-title">Kỹ năng lập trình</h2>
