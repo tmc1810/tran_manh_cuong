@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import App from './App';
+import App from '../App';
 
 export default function Fullscreen() {
   const [isFullscreen, setIsFullscreen] = useState(false);
