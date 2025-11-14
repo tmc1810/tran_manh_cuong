@@ -8,10 +8,9 @@ export default function Home() {
         <h1>Trần Mạnh Cường</h1>
         <h2>
           Tôi là
-          <span style={{ "--i": 1 }} data-text="Web Developer">Web Developer</span>
-          <span style={{ "--i": 2 }} data-text="Web Developer">Web Developer</span>
-          <span style={{ "--i": 3 }} data-text="Web Developer">Web Developer</span>
-          <span style={{ "--i": 4 }} data-text="Web Developer">Web Developer</span>
+          {[1, 2, 3, 4].map((i) => (
+            <span key={i} style={{ "--i": i }} data-text="Web Developer">Web Developer</span>
+          ))}
         </h2>
         <p>Chào mừng bạn đến với trang hồ sơ cá nhân của tôi! Tôi là một nhà phát triển Website
           với niềm đam mê tạo ra những trải nghiệm người dùng tuyệt vời.
