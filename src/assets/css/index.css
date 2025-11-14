@@ -499,7 +499,7 @@ a {
   border-radius: 20px;
   padding: 5px;
   box-shadow: 0 15px 400px rgba(0, 255, 136, 0.7);
-  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.8s linear;
   justify-content: center;
   align-items: center;
   overflow: hidden;
